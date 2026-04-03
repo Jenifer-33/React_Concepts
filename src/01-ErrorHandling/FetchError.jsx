@@ -1,5 +1,4 @@
-import { useState,useEffect } from "react"
-
+import { useState,useEffect } from "react";
 const FetchError=()=>{
 const [users,setUsers]=useState([])
 const[error,setError]=useState(null)

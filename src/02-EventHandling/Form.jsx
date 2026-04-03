@@ -46,7 +46,9 @@ const Form=()=>{
             <input id="email" name="email" value={form.email} onChange={e=>handleChange(e)}/>
             </div>
             <button type="submit" onClick={()=>alert("button in clicked")}>Submit Form</button>
+            <button >Reset Form</button>
             <p>{message}</p>
+            
             
 
             
